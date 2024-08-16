@@ -1,24 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Footer from './components/Footer';
+import Animals from './components/Animals'
+import Navbar from './components/Navbar';
+import { lazy, Suspense } from 'react';
+import Lottie from 'react-lottie';
+import loading from './assets/lotties/loading.json';
+import Employees from './components/Employees';
+import Services from './components/Services';
+import Prestataires from './components/Prestataires';
+const Hero = lazy(() => import('./components/Hero'))
 function App() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: loading,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Suspense fallback={<div className=' d-flex justify-content-center align-items-center' style={{ height: "100vh" }}>
+        <Lottie
+          options={defaultOptions}
+          height={400}
+          width={400}
+        />
+
+      </div>}>
+        <Navbar />
+        <Hero />
+        <Prestataires/>
+        <Services />
+        <Employees />
+        <Animals />
+        <Footer />
+      </Suspense>
     </div>
+
   );
 }
 
