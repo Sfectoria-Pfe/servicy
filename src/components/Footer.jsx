@@ -16,7 +16,7 @@ export default function Footer() {
 
             <div class="col-md-3">
               <div class="footer-menu">
-                <img src={logo} alt="logo" width={"100"} height={"100"} />
+                {/* <img src={logo} alt="logo" width={"100"} height={"100"} /> */}
                 <p class="blog-paragraph fs-6 mt-3">Subscribe to our newsletter to get updates about our grand offers.</p>
                 <div class="social-links">
                   <ul class="d-flex list-unstyled gap-2">
