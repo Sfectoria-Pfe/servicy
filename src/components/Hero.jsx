@@ -8,15 +8,15 @@ import Carousel from 'react-bootstrap/Carousel';
 export default function Hero() {
     return (
         <section id="banner" style={{ background: "#F9F3EC" }}>
-            <div class="container">
+            <div class="container ">
                 <Carousel>
-                    <Carousel.Item interval={2500}>
-                        <div class="swiper-slide py-5">
-                            <div class="row banner-content align-items-center">
-                                <div class="img-wrapper col-md-5">
-                                    <img src={LAVER} class="img-fluid" width={2000} height={2000} />
+                    <Carousel.Item interval={10000}>
+                        <div class="swiper-slide ">
+                            <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4 banner-content align-items-center">
+                                <div class="img-wrapper d-flex justify-content-center align-items-center ">
+                                    <img src={LAVER} class="img-fluid" width={600} height={600} />
                                 </div>
-                                <div class="content-wrapper col-md-7 p-5 mb-5">
+                                <div class="content-wrapper p-5 mb-5">
                                     <div class="secondary-font text-primary text-uppercase mb-4">We provide professional service at a friendly price</div>
                                     <h2 class="banner-title display-1 fw-normal">YOU ARE IN   <span class="text-primary"> <br></br>good hands</span>
                                     </h2>
@@ -31,13 +31,13 @@ export default function Hero() {
                         </div>
                    
                     </Carousel.Item>
-                    <Carousel.Item interval={2500}>
-                        <div class="swiper-slide py-5">
-                            <div class="row banner-content align-items-center">
-                                <div class="img-wrapper col-md-5">
-                                    <img src={chef} class="img-fluid" width={400} height={400} />
+                    <Carousel.Item interval={10000}>
+                        <div class="swiper-slide">
+                            <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4  banner-content align-items-center">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src={chef} class="img-fluid" width={380} height={200} />
                                 </div>
-                                <div class="content-wrapper col-md-7 p-5 mb-5">
+                                <div class="content-wrapper  p-5 mb-5">
                                     <div class="secondary-font text-primary text-uppercase mb-4">Save 10 - 20 % off</div>
                                     <h2 class="banner-title display-1 fw-normal">YOU ARE IN <span class="text-primary"><br></br>good hands</span>
                                     </h2>
@@ -52,13 +52,13 @@ export default function Hero() {
                         </div>
                      
                     </Carousel.Item>
-                    <Carousel.Item interval={2500}>
-                        <div class="swiper-slide py-5">
-                            <div class="row banner-content align-items-center">
-                                <div class="img-wrapper col-md-5">
-                                    <img src={plombier1} class="img-fluid" width={400} height={400} />
+                    <Carousel.Item interval={10000}>
+                        <div class="swiper-slide ">
+                            <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4  banner-content align-items-center">
+                                <div class="img-wrapper d-flex justify-content-center align-items-center">
+                                    <img src={plombier1} class="img-fluid" className='h-100 w-100'/>
                                 </div>
-                                <div class="content-wrapper col-md-7 p-5 mb-5">
+                                <div class="content-wrapper  p-5 mb-5">
                                     <div class="secondary-font text-primary text-uppercase mb-4">more then 40 services !</div>
                                     <h2 class="banner-title display-1 fw-normal">YOU ARE IN <span class="text-primary"><br></br>good hands</span>
                                     </h2>
@@ -73,13 +73,13 @@ export default function Hero() {
                         </div>
                       
                     </Carousel.Item>
-                    <Carousel.Item interval={2500}>
-                        <div class="swiper-slide py-5">
-                            <div class="row banner-content align-items-center">
-                                <div class="img-wrapper col-md-5">
-                                    <img src={baby} class="img-fluid" width={600} height={600} />
+                    <Carousel.Item interval={10000}>
+                        <div class="swiper-slide ">
+                            <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4  banner-content align-items-center">
+                                <div class="img-wrapper  d-flex justify-content-center align-items-center">
+                                    <img src={baby} class="img-fluid h-100 w-100 "  />
                                 </div>
-                                <div class="content-wrapper col-md-7 p-5 mb-5">
+                                <div class="content-wrapper  p-5 mb-5">
                                     <div class="secondary-font text-primary text-uppercase mb-4">we make life easier for you </div>
                                     <h2 class="banner-title display-1 fw-normal">YOU ARE IN <span class="text-primary"><br></br>good hands</span>
                                     </h2>
@@ -94,13 +94,13 @@ export default function Hero() {
                         </div>
                      
                     </Carousel.Item>
-                    <Carousel.Item interval={2500}>
-                        <div class="swiper-slide py-5">
-                            <div class="row banner-content align-items-center">
-                                <div class="img-wrapper col-md-5">
-                                    <img src={music} class="img-fluid" width={600} height={600}  />
+                    <Carousel.Item interval={10000}>
+                        <div class="swiper-slide ">
+                            <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4  banner-content align-items-center">
+                                <div class="img-wrapper r d-flex justify-content-center align-items-center">
+                                    <img src={music} class="img-fluid" className='h-100 w-100'  />
                                 </div>
-                                <div class="content-wrapper col-md-7 p-5 mb-5">
+                                <div class="content-wrapper  p-5 mb-5">
                                     <div class="secondary-font text-primary text-uppercase mb-4">come join us</div>
                                     <h2 class="banner-title display-1 fw-normal">YOU ARE IN <span class="text-primary"><br></br>good hands</span>
                                     </h2>
