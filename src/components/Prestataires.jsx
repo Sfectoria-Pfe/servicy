@@ -19,31 +19,42 @@ function Prestataires() {
 				<div class="container ">
 
 
-					<div class="d-flex flex-wrap justify-content-between ">
+					<div class="d-flex flex-wrap justify-content-between gap-4 align-items-center ">
 						<div class="single-logo-item">
-							<img src={logo1} alt="" />
+							<img src={logo1} alt="" height={90} width={90}/>
+						</div>
+						<div class="single-logo-item " >
+							<img src={logo2} alt="" height={90} width={90} />
 						</div>
 						<div class="single-logo-item">
-							<img src={logo2} alt="" />
+							<img src={logo3} alt="" height={90} width={90}/>
 						</div>
 						<div class="single-logo-item">
-							<img src={logo3} alt="" />
+							<img src={logo4} alt="" height={90} width={90}/>
 						</div>
 						<div class="single-logo-item">
-							<img src={logo4} alt="" />
+							<img src={logo5} alt="" height={90} width={90}/>
 						</div>
 						<div class="single-logo-item">
-							<img src={logo5} alt="" />
+							<img src={logo1} alt="" height={90} width={90}/>
 						</div>
 						<div class="single-logo-item">
-							<img src={logo1} alt="" />
+							<img src={logo2} alt="" height={90} width={90}/>
 						</div>
 						<div class="single-logo-item">
-							<img src={logo2} alt="" />
+							<img src={logo1} alt="" height={90} width={90}/>
+						</div>
+						<div class="single-logo-item " >
+							<img src={logo2} alt="" height={90} width={90} />
 						</div>
 						<div class="single-logo-item">
-							<img src={logo3} alt="" />
+							<img src={logo3} alt="" height={90} width={90}/>
 						</div>
+						<div class="single-logo-item">
+							<img src={logo4} alt="" height={90} width={90}/>
+						</div>
+					
+					
 
 					</div>
 
