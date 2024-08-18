@@ -8,13 +8,13 @@ function Navbar() {
     return (
         <>
 
-            <div className="container py-2">
-                <div className="row py-4 pb-0 pb-sm-4 align-items-center ">
+            <div className="container py-4">
+                <div className="row  pb-0  align-items-center ">
 
                     <div className="col-sm-4 col-lg-3 text-center text-sm-start">
                         <div className="main-logo">
                             <a href="index.html">
-                                <img src={logo} alt="logo" className="img-fluid" width={"170"} height={"170"} />
+                                <img src={logo} alt="logo" className="img-fluid" width={"70"} height={"70"} />
                             </a>
                         </div>
                     </div>
