@@ -12,7 +12,7 @@ import '../App.css';
 
 function Prestataires() {
 	return (
-		<div className='bg-light p-5 mt-5 '>
+		<div className='bg-light py-5 mt-5 '>
 			<Marquee>
 
 
