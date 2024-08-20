@@ -8,7 +8,7 @@ import Image5 from '../assets/images/insta6.webp'
 function Animals() {
   return (
     <>
-      <section id="insta" className="my-5">
+      <section id="insta" className="" style={{marginTop:80,marginBottom:80}}>
         <div className="d-flex g-0 py-5">
           <div className="instagram-item  text-center ">
 

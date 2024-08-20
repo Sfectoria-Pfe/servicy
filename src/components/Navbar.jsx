@@ -1,10 +1,12 @@
 import React from 'react'
-import logo from '../assets/images/LOGOservicy.png'
+import logo from '../assets/images/logo.png'
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { IoMdPerson } from "react-icons/io";
 import { IoIosBookmark } from "react-icons/io";
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
+    const navigate = useNavigate()
     return (
         <>
 
@@ -77,7 +79,7 @@ function Navbar() {
                                     <iconify-icon icon="mdi:cart" className="fs-4 position-relative"><FaRegCalendarAlt className="fs-4 position-relative" />
                                     </iconify-icon>
                                     <span className="position-absolute translate-middle badge rounded-circle bg-primary pt-2">
-                                        03
+                                        03 
                                     </span>
                                 </a>
                             </li>
@@ -118,13 +120,13 @@ function Navbar() {
 
                             <ul className="navbar-nav menu-list list-unstyled d-flex gap-md-3 mb-0">
                                 <li className="nav-item">
-                                    <a href="index.html" className="nav-link active">Home</a>
+                                    <p className="nav-link active" onClick={()=>navigate('/')}>Home</p>
                                 </li>
                                 <li className="nav-item dropdown">
                                     
                                     <ul className="dropdown-menu" aria-labelledby="pages">
-                                        <li><a href="about.html" className="dropdown-item">About Us<span
-                                            className="badge bg-success text-dark ms-2">PRO</span></a></li>
+                                        <li><p className="dropdown-item" onClick={()=>navigate('about')}>About Us<span
+                                            className="badge bg-success text-dark ms-2">PRO</span></p></li>
                                         <li><a href="shop.html" className="dropdown-item">Services<span
                                             className="badge bg-success text-dark ms-2">PRO</span></a></li>
                                         <li><a href="single-product.html" className="dropdown-item">Single Product<span
@@ -154,20 +156,23 @@ function Navbar() {
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="shop.html" className="nav-link">Services</a>
+                                    <p className="nav-link" onClick={()=>navigate('services')}>Services</p>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="blog.html" className="nav-link">About us</a>
+                                    <p className="nav-link" onClick={()=>navigate('about')}>About us</p>
                                     </li><li className="nav-item">
                                     
                                 </li>
                                 <li className="nav-item">
-                                <a href="#" cl
-                                className="nav-link">Others</a>
+                                <p className="nav-link" onClick={()=>navigate('contact')}>Contact</p>
                                 </li>
                                 <li className="nav-item">
                                 </li>
-                            </ul>
+                                <li className="nav-item">
+                                    <p className="nav-link" onClick={()=>navigate('team')}>Our Workers</p>
+                                    </li>
+                                    <li className="nav-item"></li>
+                                </ul>
 
                             <div className="d-none d-lg-flex align-items-end">
                                 <ul className="d-flex justify-content-end list-unstyled m-0">

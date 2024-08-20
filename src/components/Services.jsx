@@ -1,11 +1,17 @@
 import React from 'react'
-import a from "../assets/images/3d house.png"
-import b from "../assets/images/Screenshot 2024-08-15 105145.png"
-import c from "../assets/images/driller.png"
+import show from "../assets/images/services/show more.jpg"
+
+import { allServices } from '../constants/allServices'
+import { useNavigate } from 'react-router-dom'
+
 
 export default function Services() {
+
+    const navigate = useNavigate()
     return (
-        <div className='container mt-5'>
+
+        <div className='container ' style={{ marginTop: 80 }}>
+
             <div class="row">
                 <div class="col-xl-5">
                     <div class="section_tittle">
@@ -13,38 +19,32 @@ export default function Services() {
                         <h2>Our Exclusive services</h2>
                     </div>
                 </div>
-                <div className='d-flex justify-content-start align-items-center gap-3 '>
-                    <div className='d-flex flex-column justify-content-center align-items-center' >
+                <div className='d-flex flex-wrap  align-items-center gap-4 '>
+
+                    {allServices.map((elem, i) => (
+                        <div className='d-flex   gap-2 ' style={{ width: 160 }}>
+                            <div className='d-flex flex-column  justify-content-center align-items-center ' >
+                                <div className='rounded-circle p-3' style={{ backgroundColor: "#f9f3ec" }}>
+
+                                    <img src={elem.img} width={36} height={36} />
+                                </div>
+
+                                <h5 className='mt-4'>{elem.title}</h5>
+
+                            </div>
+                        </div>
+                    ))}
+                    <div className='d-flex flex-column  justify-content-center align-items-center ' onClick={()=>navigate("services")}>
                         <div className='rounded-circle p-3' style={{ backgroundColor: "#f9f3ec" }}>
-                            <img src={a} width={70} height={70} />
 
+                            <img src={show} width={36} height={36} />
                         </div>
-                        <h5>painting</h5>
 
+                        <h5 className='mt-4' >Show More</h5>
 
                     </div>
 
-                    <div className='d-flex gap-3 '>
-                        <div className='d-flex flex-column justify-content-center align-items-center' >
-                            <div className='rounded-circle p-3' style={{ backgroundColor: "#f9f3ec" }}>
 
-                                <img src={c} width={70} height={70} />
-                            </div>
-                            <h5>painting</h5>
-
-                        </div>
-                    </div>
-                    <div className='d-flex gap-3 '>
-                        <div className='d-flex flex-column justify-content-center align-items-center' >
-
-                            <div className='rounded-circle p-3' style={{ backgroundColor: "#f9f3ec" }}>
-
-                                <img src={b} width={70} height={70} />
-                            </div>
-                            <h5>painting</h5>
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

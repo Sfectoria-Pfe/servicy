@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/images/LOGOservicy.png"
+import logo from "../assets/images/logo.png"
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
@@ -10,13 +10,13 @@ export default function Footer() {
   return (
     <div>
 
-      <footer id="footer" class="my-5">
-        <div class="container py-5 my-5">
+      <footer id="footer" class="mt-5">
+        <div class="container pt-5 my-3">
           <div class="row">
 
             <div class="col-md-3">
-              <div class="footer-menu">
-                <img src={logo} alt="logo" width={"100"} height={"100"} />
+              <div class="footer-menu " >
+                 <img src={logo} alt="logo"  width={"130"} height={"130"} /> 
                 <p class="blog-paragraph fs-6 mt-3">Subscribe to our newsletter to get updates about our grand offers.</p>
                 <div class="social-links">
                   <ul class="d-flex list-unstyled gap-2">
