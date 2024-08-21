@@ -29,23 +29,24 @@ export default function Team() {
                         </div>
                         <div className="shop__sidebar__accordion">
                             <div className="accordion" id="accordionExample">
-                                <div className="card">
+                                <div className="card ">
                                     <div className="card-heading">
                                         <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
                                     </div>
                                     <div id="collapseOne" className="collapse show" data-parent="#accordionExample">
-                                        <div className="card-body">
+                                        <div className="card-body ">
                                             <div className="shop__sidebar__categories">
                                                 <ul className="nice-scroll">
-                                                    <li><a href="#">Men (20)</a></li>
-                                                    <li><a href="#">Women (20)</a></li>
-                                                    <li><a href="#">Bags (20)</a></li>
-                                                    <li><a href="#">Clothing (20)</a></li>
-                                                    <li><a href="#">Shoes (20)</a></li>
-                                                    <li><a href="#">Accessories (20)</a></li>
-                                                    <li><a href="#">Kids (20)</a></li>
-                                                    <li><a href="#">Kids (20)</a></li>
-                                                    <li><a href="#">Kids (20)</a></li>
+                                                    <li><a href="#">Maintenance and repair</a></li>
+                                                    <li><a href="#">Drivers</a></li>
+                                                    <li><a href="#">Multimedia and IT</a></li>
+                                                    <li><a href="#">Household Appliance Repair</a></li>
+                                                    <li><a href="#">Animal care</a></li>
+                                                    <li><a href="#">Housekeeping and Cleaning</a></li>
+                                                    <li><a href="#">Beauty and well-being</a></li>
+                                                    <li><a href="#">Health</a></li>
+                                                    <li><a href="#">Coaching and training</a></li>
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -53,16 +54,18 @@ export default function Team() {
                                 </div>
                                 <div className="card">
                                     <div className="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseTwo">Branding</a>
+                                        <a data-toggle="collapse" data-target="#collapseTwo">Feedbacks</a>
                                     </div>
                                     <div id="collapseTwo" className="collapse show" data-parent="#accordionExample">
                                         <div className="card-body">
                                             <div className="shop__sidebar__brand">
                                                 <ul>
-                                                    <li><a href="#">Louis Vuitton</a></li>
-                                                    <li><a href="#">Chanel</a></li>
-                                                    <li><a href="#">Hermes</a></li>
-                                                    <li><a href="#">Gucci</a></li>
+                                                    <li><a href="#">5 stars</a></li>
+                                                    <li><a href="#">4 stars</a></li>
+                                                    <li><a href="#">3 stars</a></li>
+                                                    <li><a href="#">2 stars</a></li>
+                                                    <li><a href="#">1 star</a></li>                                                   
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -89,35 +92,15 @@ export default function Team() {
                                 </div>
                                 <div className="card">
                                     <div className="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseFour">Size</a>
+                                        <a data-toggle="collapse" data-target="#collapseThree">Verified Workers</a>
                                     </div>
-                                    <div id="collapseFour" className="collapse show" data-parent="#accordionExample">
+                                    <div id="collapseThree" className="collapse show" data-parent="#accordionExample">
                                         <div className="card-body">
-                                            <div className="shop__sidebar__size">
-                                                <label for="xs">xs
-                                                    <input type="radio" id="xs"/>
-                                                </label>
-                                                <label for="sm">s
-                                                    <input type="radio" id="sm"/>
-                                                </label>
-                                                <label for="md">m
-                                                    <input type="radio" id="md"/>
-                                                </label>
-                                                <label for="xl">xl
-                                                    <input type="radio" id="xl"/>
-                                                </label>
-                                                <label for="2xl">2xl
-                                                    <input type="radio" id="2xl"/>
-                                                </label>
-                                                <label for="xxl">xxl
-                                                    <input type="radio" id="xxl"/>
-                                                </label>
-                                                <label for="3xl">3xl
-                                                    <input type="radio" id="3xl"/>
-                                                </label>
-                                                <label for="4xl">4xl
-                                                    <input type="radio" id="4xl"/>
-                                                </label>
+                                            <div className="shop__sidebar__price">
+                                                <ul>
+                                                    <li><a href="#">Descending order</a></li>
+                                                    <li><a href="#">ascending order</a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>

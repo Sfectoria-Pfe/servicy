@@ -1,5 +1,6 @@
 import React from 'react'
 import teswira from '../assets/images/about.png'
+import Owners from '../components/Owners'
 export default function About() {
   return (
     <div style={{marginBottom:180}}>
@@ -51,7 +52,7 @@ export default function About() {
     </div>
   
   </div>
-  
+  <Owners/>
     </div>
   )
 }
