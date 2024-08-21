@@ -2,7 +2,7 @@ import React from 'react'
 import LAVER from "../assets/images/LAVER.png"
 import chef from "../assets/images/chef.png"
 import plombier1 from "../assets/images/plombier1.png"
-import baby from "../assets/images/baby.png"
+import vet from "../assets/images/vet.png"
 import music from "../assets/images/music1.png"
 import Carousel from 'react-bootstrap/Carousel';
 export default function Hero() {
@@ -10,7 +10,7 @@ export default function Hero() {
         <section id="banner" style={{ background: "#F9F3EC" }}>
             <div class="container ">
                 <Carousel>
-                    <Carousel.Item interval={10000}>
+                    <Carousel.Item interval={2000}>
                         <div class="swiper-slide ">
                             <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4 banner-content align-items-center">
                                 <div class="img-wrapper d-flex justify-content-center align-items-center ">
@@ -31,7 +31,7 @@ export default function Hero() {
                         </div>
                    
                     </Carousel.Item>
-                    <Carousel.Item interval={10000}>
+                    <Carousel.Item interval={2000}>
                         <div class="swiper-slide">
                             <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4  banner-content align-items-center">
                                 <div class="d-flex justify-content-center align-items-center">
@@ -52,7 +52,7 @@ export default function Hero() {
                         </div>
                      
                     </Carousel.Item>
-                    <Carousel.Item interval={10000}>
+                    <Carousel.Item interval={2000}> 
                         <div class="swiper-slide ">
                             <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4  banner-content align-items-center">
                                 <div class="img-wrapper d-flex justify-content-center align-items-center">
@@ -73,11 +73,11 @@ export default function Hero() {
                         </div>
                       
                     </Carousel.Item>
-                    <Carousel.Item interval={10000}>
+                    <Carousel.Item interval={2000}>
                         <div class="swiper-slide ">
                             <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4  banner-content align-items-center">
-                                <div class="img-wrapper  d-flex justify-content-center align-items-center">
-                                    <img src={baby} class="img-fluid h-100 w-100 "  />
+                                <div class="img-wrapper  d-flex justify-content-center align-items-center ">
+                                    <img src={vet} class="img-fluid h-100 w-100 "  />
                                 </div>
                                 <div class="content-wrapper  p-5 mb-5">
                                     <div class="secondary-font text-primary text-uppercase mb-4">we make life easier for you </div>
@@ -94,7 +94,7 @@ export default function Hero() {
                         </div>
                      
                     </Carousel.Item>
-                    <Carousel.Item interval={10000}>
+                    <Carousel.Item interval={2000}>
                         <div class="swiper-slide ">
                             <div class="d-flex flex-wrap justify-content-center align-items-center gap-lg-4  banner-content align-items-center">
                                 <div class="img-wrapper r d-flex justify-content-center align-items-center">

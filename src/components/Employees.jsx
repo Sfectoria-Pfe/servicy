@@ -7,7 +7,7 @@ import taxi from '../assets/images/taxi.jpg'
 export default function Sectionservice() {
     return (
         <div>
-            <section class="exclusive_item_part blog_item_section mt-5">
+            <section class="exclusive_item_part blog_item_section " style={{marginTop:80}}>
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-5">
@@ -40,7 +40,7 @@ export default function Sectionservice() {
                                     <div className='d-flex justify-content-end'><span class="badge rounded-pill bg-primary ">Uber driver</span></div>
                                     <div className='d-flex gap-24 align-items-center '>
                                         <h3 className='mt-2'>kristopher garden</h3></div>
-                                    <a href="#" class="btn_3">More then 60% satisfied clients ! <img src="img/icon/left_2.svg" alt="" /></a>
+                                    <p class="btn_3">More then 60% satisfied clients ! <img src="img/icon/left_2.svg" alt="" /></p>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ export default function Sectionservice() {
                                     <div className='d-flex justify-content-end'><span class="badge rounded-pill bg-primary ">Photographer</span></div>
                                     <div className='d-flex gap-24 align-items-center '>
                                         <h3>David guetta </h3></div>
-                                    <a href="" class="btn_3"> Known for the highest quality of his photos !  <img src="img/icon/left_2.svg" alt="" /></a>
+                                    <p class="btn_3"> Known for the highest quality of his photos !  <img src="img/icon/left_2.svg" alt="" /></p>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ export default function Sectionservice() {
                                     <div className='d-flex justify-content-end'><span class="badge rounded-pill bg-primary ">Baker</span></div>
                                     <div className='d-flex gap-24 align-items-center '>
                                         <h3>justin smith </h3></div>
-                                    <a href="#" class="btn_3"> famous of his delicious bread  <img src="img/icon/left_2.svg" alt="" /></a>
+                                    <p class="btn_3"> famous of his delicious bread  <img src="img/icon/left_2.svg" alt="" /></p>
                                 </div>
                             </div>
                         </div>
