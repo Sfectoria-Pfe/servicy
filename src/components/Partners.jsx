@@ -1,68 +1,40 @@
-import React from 'react';
-import logo1 from '../assets/images/1.png';
-import logo2 from '../assets/images/2.png';
-import logo3 from '../assets/images/3.png';
-import logo4 from '../assets/images/4.png';
-import logo5 from '../assets/images/5.png';
+import React from "react";
+import logo1 from "../assets/images/1.png";
+import logo2 from "../assets/images/2.png";
+import logo3 from "../assets/images/3.png";
+import logo4 from "../assets/images/4.png";
+import logo5 from "../assets/images/5.png";
 import Marquee from "react-fast-marquee";
-import '../App.css';
-
-
-
-
+import "../App.css";
 
 function Partners() {
-	return (
-		<div className='bg-light py-5  ' style={{marginTop:80}}>
-			<Marquee>
+  return (
+    <div className="bg-light py-5 px-5 " style={{ marginTop: 80 }}>
+      <Marquee pauseOnHover="true" gradient="true" gradientColor="#F8F8F8" style={{width:"100%"}}>
+        <div className="d-flex justify-content-between" style={{gap:"5rem"}}>
+          <img src={logo1} alt="" width={90} height={90} />
 
+          <img src={logo2} alt="" width={90} height={90}/>
 
-				<div class="container ">
+          <img src={logo3} alt="" width={90} height={90}/>
 
+          <img src={logo4} alt="" width={90} height={90}/>
 
-					<div class="d-flex flex-wrap justify-content-between gap-4 align-items-center ">
-						<div class="single-logo-item">
-							<img src={logo1} alt="" height={90} width={90}/>
-						</div>
-						<div class="single-logo-item " >
-							<img src={logo2} alt="" height={90} width={90} />
-						</div>
-						<div class="single-logo-item">
-							<img src={logo3} alt="" height={90} width={90}/>
-						</div>
-						<div class="single-logo-item">
-							<img src={logo4} alt="" height={90} width={90}/>
-						</div>
-						<div class="single-logo-item">
-							<img src={logo5} alt="" height={90} width={90}/>
-						</div>
-						<div class="single-logo-item">
-							<img src={logo1} alt="" height={90} width={90}/>
-						</div>
-						<div class="single-logo-item">
-							<img src={logo2} alt="" height={90} width={90}/>
-						</div>
-						<div class="single-logo-item">
-							<img src={logo1} alt="" height={90} width={90}/>
-						</div>
-						<div class="single-logo-item " >
-							<img src={logo2} alt="" height={90} width={90} />
-						</div>
-						<div class="single-logo-item">
-							<img src={logo3} alt="" height={90} width={90}/>
-						</div>
-						<div class="single-logo-item">
-							<img src={logo4} alt="" height={90} width={90}/>
-						</div>
-					
-					
+          <img src={logo5} alt="" width={90} height={90}/>
 
-					</div>
+          <img src={logo1} alt="" width={90} height={90}/>
 
-				</div>
-			</Marquee>
-		</div>
-	)
+          <img src={logo2} alt="" width={90} height={90}/>
+
+          <img src={logo3} alt="" width={90} height={90}/>
+
+          <img src={logo4} alt="" width={90} height={90}/>
+          <img src={logo5} alt="" width={90} height={90}/>
+		  <div style={{ width: 20 }}></div>
+        </div>
+      </Marquee>
+    </div>
+  );
 }
 
-export default Partners
+export default Partners;
