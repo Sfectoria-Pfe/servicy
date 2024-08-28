@@ -10,7 +10,7 @@ export default function Owners() {
   return (
     <div>
       <section className="chefs_part blog_item_section section_padding">
-        <div className="container ">
+        <div className="container mt-5 ">
             <div className="row ">
                 <div className="col-xl-5 d-flex justify_content-center align-items-center">
                     <div className="section_tittle">
@@ -28,12 +28,17 @@ export default function Owners() {
                         <div className="single_blog_text text-center">
                             <h3>Adam Billiard</h3>
                             <p>Founder</p>
-                            <div className="social_icon">
-                                <a href="#"> <i className="ti-facebook"></i> </a>
-                                <a href="#"> <i className="ti-twitter-alt"></i> </a>
-                                <a href="#"> <i className="ti-instagram"></i> </a>
-                                <a href="#"> <i className="ti-skype"></i> </a>
-                            </div>
+                            <ul class="d-flex justify-content-center list-unstyled gap-2">
+                            <li class="social"><a href="#"><iconify-icon class="social-icon" icon="ri:twitter-fill"> <FaFacebookF class="social-icon" /></iconify-icon> </a>
+                            </li>
+                            <li class="social"><a href="#"><iconify-icon class="social-icon" icon="ri:twitter-fill"> <FaTwitter class="social-icon" /></iconify-icon> </a>
+                            </li>
+                            <li class="social"><a href="#"><iconify-icon class="social-icon" icon="ri:twitter-fill"> <FaInstagram class="social-icon" /></iconify-icon> </a>
+                            </li>
+                            <li class="social"><a href="#"><iconify-icon class="social-icon" icon="ri:twitter-fill"> <FaLinkedin class="social-icon" /></iconify-icon> </a></li>
+                            </ul>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -43,14 +48,17 @@ export default function Owners() {
                             <img src={manager} alt=""/>
                         </div>
                         <div className="single_blog_text text-center">
-                            <h3>Fred Macyard</h3>
+                            <h3>Emilie Macyard</h3>
                             <p>Manager</p>
-                            <div className="social_icon">
-                                <a href="#"> <i className="ti-facebook"></i> </a>
-                                <a href="#"> <i className="ti-twitter-alt"></i> </a>
-                                <a href="#"> <i className="ti-instagram"></i> </a>
-                                <a href="#"> <i className="ti-skype"></i> </a>
-                            </div>
+                            <ul class="d-flex justify-content-center list-unstyled gap-2">
+                            <li class="social"><a href="#"><iconify-icon class="social-icon" icon="ri:twitter-fill"> <FaFacebookF class="social-icon" /></iconify-icon> </a>
+                            </li>
+                            <li class="social"><a href="#"><iconify-icon class="social-icon" icon="ri:twitter-fill"> <FaTwitter class="social-icon" /></iconify-icon> </a>
+                            </li>
+                            <li class="social"><a href="#"><iconify-icon class="social-icon" icon="ri:twitter-fill"> <FaInstagram class="social-icon" /></iconify-icon> </a>
+                            </li>
+                            <li class="social"><a href="#"><iconify-icon class="social-icon" icon="ri:twitter-fill"> <FaLinkedin class="social-icon" /></iconify-icon> </a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

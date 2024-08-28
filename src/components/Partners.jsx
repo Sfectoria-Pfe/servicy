@@ -10,7 +10,8 @@ import '../App.css';
 
 
 
-function Prestataires() {
+
+function Partners() {
 	return (
 		<div className='bg-light py-5  ' style={{marginTop:80}}>
 			<Marquee>
@@ -64,4 +65,4 @@ function Prestataires() {
 	)
 }
 
-export default Prestataires
+export default Partners

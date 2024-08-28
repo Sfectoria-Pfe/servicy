@@ -5,8 +5,11 @@ import plombier1 from "../assets/images/plombier1.png"
 import vet from "../assets/images/vet.png"
 import music from "../assets/images/music1.png"
 import Carousel from 'react-bootstrap/Carousel';
+import Fade from 'react-reveal/Fade';
+
 export default function Hero() {
     return (
+        <Fade left>
         <section id="banner" style={{ background: "#F9F3EC" }}>
             <div class="container ">
                 <Carousel>
@@ -119,5 +122,6 @@ export default function Hero() {
 
             </div>
         </section>
+        </Fade>
     )
 }
