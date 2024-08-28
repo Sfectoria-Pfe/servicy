@@ -3,9 +3,11 @@ import baker from '../assets/images/baker.jpg'
 import dohn from '../assets/images/dohn.png'
 import photographer from '../assets/images/photographer.jpg'
 import taxi from '../assets/images/taxi.jpg'
+import Fade from 'react-reveal/Fade';
 
 export default function Sectionservice() {
     return (
+        <Fade left>
         <div>
             <section class="exclusive_item_part blog_item_section " style={{marginTop:80}}>
                 <div class="container">
@@ -84,5 +86,6 @@ export default function Sectionservice() {
 
             </section>
         </div>
+        </Fade>
     )
 }

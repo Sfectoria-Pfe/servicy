@@ -1,9 +1,11 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
+import { Fade } from 'react-reveal';
 
 
  function Questions() {
   return (
+    <Fade left>
       <Accordion defaultActiveKey="0" className='container ' style={{marginTop:80}}>
        <div class="section_tittle">
              <p> You can always send us your questions and we will answer you the fastest we can.</p>
@@ -39,6 +41,7 @@ import Accordion from 'react-bootstrap/Accordion';
       </Accordion.Body>
         </Accordion.Item>
        </Accordion>
+       </Fade>
     
     )
 }

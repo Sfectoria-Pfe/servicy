@@ -6,8 +6,9 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Contact from "./pages/Contact"
 import Services from './pages/Services';
-import Team from './pages/Team';
+
 import Profile from './components/Profile';
+import Workers from './pages/Workers';
 export default function Router() {
     return (
 
@@ -19,7 +20,7 @@ export default function Router() {
                 <Route path="about" element={<About />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="services" element={<Services />} />
-                <Route path="team" element={<Team />} />
+                <Route path="team" element={<Workers/>} />
                 <Route path="profile" element={<Profile />} />
 
 

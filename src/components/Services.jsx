@@ -3,6 +3,8 @@ import show from "../assets/images/services/show more.jpg"
 
 import { allServices } from '../constants/allServices'
 import { useNavigate } from 'react-router-dom'
+import Fade from 'react-reveal/Fade';
+
 
 
 export default function Services() {
@@ -10,6 +12,7 @@ export default function Services() {
     const navigate = useNavigate()
     return (
 
+        <Fade right>
         <div className='container ' style={{ marginTop: 80 }}>
 
             <div class="row">
@@ -48,5 +51,6 @@ export default function Services() {
                 </div>
             </div>
         </div>
+        </Fade>
     )
 }

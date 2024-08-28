@@ -1,6 +1,7 @@
 import React from 'react'
 import teswira from '../assets/images/about.png'
 import Owners from '../components/Owners'
+import Parallax from '../components/Parallax'
 export default function About() {
   return (
     <div style={{marginBottom:180}}>
@@ -52,6 +53,7 @@ export default function About() {
     </div>
   
   </div>
+  <Parallax/>
   <Owners/>
     </div>
   )
